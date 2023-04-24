@@ -28,7 +28,7 @@ const About = () => {
     <div className="flex p-4">
       <div className='flex justify-center items-center mt-14 flex-col m-5 md:flex-row'>
         <img className='object-contain border-md justify-center ' style={{ maxWidth: '320px', maxHeight: '220px', width: '100%', height: 'auto', flexGrow: '1', zIndex: '1' }} src={image4} alt="sample cloud" />
-        <div className='bg-orange-200 p-5 border-2 rounded-md text-black ' style={{ marginRight: '7rem' }}>
+        <div className='bg-orange-400 p-5 border-2 rounded-md text-white ' style={{ marginRight: '7rem' }}>
           <h2>Adams Fontil - fullstack Developer</h2>
           <p>Hi, I'm Adams, I'm 22 and was born in Haiti. I wasn't really interested in computer science. I didn't like it,
             I thought that it was way too complex and out of reach. Also I didn't think it was useful to learn web development

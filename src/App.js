@@ -9,7 +9,7 @@ import Skills from './Components/Skills'
 function App() {
 
   return (
-    <div className='bg-blue-400 text-orange-200 md:text-2xl font-serif'>
+    <div className='bg-blue-600 text-orange-400 md:text-2xl font-serif'>
       <Header />
       <About />
       <Skills />

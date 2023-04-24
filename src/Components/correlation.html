@@ -1,53 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <p>Your code here</p>
-  <img src="Day_3_webpage_image.jpg">
-  <table width="410" cellspacing="0">
-    <tr>
-        <td bgcolor="#ffcc33">
-          <font size="2" face="verdana">
-            <b>New:</b>
-            <a href="http://www.paulgraham.com/getideas.html">How to get new ideas</a>
-            |
-            <a href="http://www.paulgraham.com/read.html">Read</a>
-            |
-            <a href="http://www.paulgraham.com/want.html">Will</a>
-            |
-            <a href="http://www.paulgraham.com/alien.html">Truth</a>
-          </font>
-
-        </td>
-    </tr>
-</table>
-<table width="410" cellspacing="0">
-  <tr>
-    <td bgcolor="#ff9922">
-      <strong>Want a new startup?</strong>
-      Get funded by <a href="https://www.ycombinator.com/apply.html">Y combinator</a>
-    </td>
-  </tr>
-</table>
-</body>
-</html>
-
-<!DOCTYPE html>
 <html>
+
+<head>
+    <title>Questions</title>
+</head>
+
 <body>
+  <h3> Questions Para Ti </h3>
+    <form action="/example_action.html" target="_blank" method="get">
+      <table style="border: 2px solid black">
+        <tr>
+          <td><img src="./music.jpg" alt="girl with headphones enjoy music" width="240px"> </td>
+          <td><label for="music">What's your favorite genre of music:</label></td>
+          <td>
+            <select id="music" name="music">
+              <option value="rock">Rock</option>
+              <option value="electronic">Electronic Music</option>
+              <option value="pop">Pop</option>
+              <option value="country">Country</option>
+              <option value="other">Other</option>
+            </select>
+          </td>
+        </tr>
 
-<p>Click on the area close to the symbol </p>
+        <tr>
+          <td rowspan="2" ><img src="./pet.jpg" alt="super cute cat" width="240px"> </td>
+          <td><label for="pet">Do you have a pet?:</label></td>
+          <td>
+            <input type="radio" id="yes" name="pet" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="pet" value="No">
+            <label for="no">No</label>
+            <tr>
+              <td><label for="name">What's your name: </label></td>
+              <td><input type="text" id="name" name="name"></td>
+            </tr>
+          </td>
 
-<img style="width: 400px ;" src="customerService.jpg" alt='customer service girl' usemap="#image_map">
-<map name="image_map">
-  <area alt="customer service" title="customer service" href="https://www.pexels.com/photo/a-smiling-woman-working-in-a-call-center-while-looking-at-camera-8867434/" coords="2263,1979,5921,3869" shape="rect">
-</map>
+        </tr>
 
+        <tr>
+          <td><img src="./sport.jpg" alt="guy spinning basketball on finger with a huge grin" width="240px"> </td>
+          <td><label for="sports">Sports you like:</label></td>
+          <td>
+            <input type="checkbox" id="soccer" name="sports" value="Soccer">
+            <label for="soccer">Soccer</label><br>
+            <input type="checkbox" id="basketball" name="sports" value="Basketball">
+            <label for="basketball">Basketball</label><br>
+            <input type="checkbox" id="baseball" name="sports" value="Baseball">
+            <label for="baseball">Baseball</label><br>
+            <input type="checkbox" id="other" name="sports" value="Other">
+            <label for="other">Other</label><br>
+          </td>
+        </tr>
 
+      </table>
+      <button type="submit" >Save</button>
 
+    </form>
 </body>
+
 </html>
