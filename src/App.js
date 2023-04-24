@@ -9,12 +9,13 @@ import Skills from './Components/Skills'
 function App() {
 
   return (
+
     <div className='bg-blue-600 text-orange-400 md:text-2xl font-serif'>
       <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div id="about"><About /></div>
+      <div id="skills"><Skills /></div>
+      <div id="projects"><Projects /></div>
+      <div id="contact"><Contact /></div>
     </div>
   )
 }
