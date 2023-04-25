@@ -8,7 +8,7 @@ const projectsData = [
   {
     name: 'Publix Clone',
     tools: ['react', 'mongoDB', 'express'],
-    github: 'github.com',
+    github: 'https://github.com/',
     live: 'site.com',
     description: 'Publix app created to test both design skills, and backend. This site has authentication, and uses mongoDB to store those users, and the items they have in their carts',
     screenshot: Image1
@@ -60,20 +60,27 @@ const projectsData = [
 const Projects = () => {
   return (
     <div className='p-4 flex flex-col gap-2'>
-      <h1 className='text-2xl'>My Projects</h1>
+      <h1 className='text-4xl'>My Projects</h1>
       <div className='grid grid-cols-1 gap-3 md:grid-cols-3'>
         {projectsData.map((project, index) => (
           <div className=' border-orange-400 rounded-lg border-2 text-white' key={index}>
-            <img className='w-100vh object-contain border-2 ' src={project.screenshot} alt={project.name} />
+            <img className='w-50 object-contain border-2 ' src={project.screenshot} alt={project.name} />
             <div className='p-4'>
               <div className='flex items-center justify-between text-orange-400'>
                 <p className=''>{project.name}</p>
                 <div className='flex gap-2 justify-end'>
-                  <FontAwesomeIcon icon={faGithub} className='hover:text-white'  />
-                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='hover:text-white'   />
+                  <a href={project.github} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faGithub} className='hover:text-white'  /> </a>
+                  <a href={project.live} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='hover:text-white'   /> </a>
                 </div>
+              </div >
+              <div className='flex flex-col gap-3'>
+                <p>{project.description}</p>
+                {/* <div>
+                  <h2>Tools used:</h2>
+                  <p>{project.tools}</p> <br></br>
+                </div> */}
               </div>
-              <p>{project.description}</p>
+
             </div>
           </div>
         ))}

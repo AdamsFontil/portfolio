@@ -3,28 +3,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
+import image4 from '../Assets/pexels-ozan-çulha-16337978 (1).jpg'
+import resume from '../Assets/resume/Adams_Fontil_Canva.pdf'
 
+console.log('image', image4)
+console.log('resume', resume)
 
 const Contact = () => {
   return (
-    <div className='flex flex-col gap-4 items-center p-4 text-white md:text-3xl bg-orange-400'>
+    <div className='flex flex-col text-3xl md:text-5xl justify-center gap-9 items-center p-4 text-white bg-orange-400' style={{ height:'100vh' }}>
 
-      <h2 className='text-7xl'>Contact me</h2>
-      <div className='flex items-center gap-1'>
-        <FontAwesomeIcon icon={faFile} />
-        <a className='hover:border-b-2 border-blue-600'>resume</a>
+      <h2 className=' text-6xl md:text-9xl'>Contact me</h2>
+      <div className='flex items-center md:p-3'>
+        <FontAwesomeIcon icon={faFile} className='p-2' />
+        <a href={resume} target='_blank' className='hover:border-b-2 border-blue-600' rel="noreferrer">resume</a>
       </div>
-      <div className='flex items-center gap-1'>
-        <FontAwesomeIcon icon={faEnvelope} />
+      <div className='flex items-center md:p-3'>
+        <FontAwesomeIcon icon={faEnvelope} className='p-2' />
         <a href='mailto:adamsfuntil@gmail.com' target='_blank' className='hover:border-b-2 border-blue-600' rel="noreferrer">adamsfuntil@gmail.com</a>
 
       </div>
-      <div className='flex items-center gap-1'>
-        <FontAwesomeIcon icon={faLinkedin} />
+      <div className='flex items-center md:p-3'>
+        <FontAwesomeIcon icon={faLinkedin} className='p-2' />
         <a href='https://www.linkedin.com/in/adams-fontil/' target='_blank' className='hover:border-b-2 border-blue-600' rel="noreferrer">linkedin</a>
       </div>
-      <div className='flex items-center gap-1'>
-        <FontAwesomeIcon icon={faGithub} />
+      <div className='flex items-center md:p-3'>
+        <FontAwesomeIcon icon={faGithub} className='p-2' />
         <a href='https://github.com/AdamsFontil' target='_blank' className='hover:border-b-2 border-blue-600' rel="noreferrer">github</a>
 
       </div>

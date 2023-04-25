@@ -21,14 +21,16 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 //   .resize(scale().width(300).height(150))
 //   .quality(80)
 
-import image4 from '../Assets/pexels-ozan-çulha-16337978 (1).jpg'
+// import image4 from '../Assets/pexels-ozan-çulha-16337978 (1).jpg'
 
 const About = () => {
   return (
-    <div className="flex p-4">
-      <div className='flex justify-center items-center mt-14 flex-col m-5 md:flex-row'>
-        <img className='object-contain border-md justify-center ' style={{ maxWidth: '320px', maxHeight: '220px', width: '100%', height: 'auto', flexGrow: '1', zIndex: '1' }} src={image4} alt="sample cloud" />
-        <div className='bg-orange-400 p-5 border-2 rounded-md text-white flex flex-col gap-6' style={{ marginRight: '7rem' }}>
+    <div className="flex">
+      <div className='flex justify-center items-center flex-col md:flex-row'>
+
+        {/* <img className='object-contain border-md justify-center ' style={{ maxWidth: '320px', maxHeight: '220px', width: '100%', height: 'auto', flexGrow: '1', zIndex: '1' }} src={image4} alt="sample cloud" /> */}
+        <div className='bg-orange-400 p-5 border-2 rounded-md text-white flex flex-col gap-6'>
+          <h1 className='text-4xl'>About Me</h1>
           <p>Welcome to my website! My name is Adams Fontil, and I'm a self-taught web developer
              with a passion for learning and a drive to succeed. I believe that the best way to achieve success
              is through hard work, dedication, and continuous learning, which is why I started teaching myself
