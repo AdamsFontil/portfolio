@@ -37,7 +37,7 @@ const projectsData = [
     name: 'Personal Website',
     tools: ['react', 'tailwindcss'],
     github: 'https://github.com/AdamsFontil/portfolio',
-    live: '$69.99',
+    live: 'https://644fc7ebcd7cb5224f280479--vermillion-cajeta-1205c6.netlify.app/',
     description: 'Personal website made mainly with react and tailwind to showcase my abilities and the projects that Ive made',
     imageName: 'portfolioPic'
   },
