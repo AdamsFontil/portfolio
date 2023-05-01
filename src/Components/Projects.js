@@ -20,23 +20,23 @@ const projectsData = [
   {
     name: 'Publix Clone',
     tools: ['react', 'mongoDB', 'express'],
-    github: 'https://github.com/',
+    github: 'https://github.com/AdamsFontil/groceries',
     live: 'site.com',
-    description: 'Publix app created to test both design skills, and backend. This site has authentication, and uses mongoDB to store those users, and the items they have in their carts',
+    description: 'This is a full-stack project, a Publix Clone, that aims to test my skills in CSS and design, backend development using REST, and MongoDB database. The website has user authentication and token authentication, and features like a search bar and client-side form validation. The project will use React, MongoDB, and Express as its main tools. This project also makes use of unit testing with Jest and end-to-end testing with Cypress. The project is inspired by Publix\'s website, which has a pleasing design and excellent UI/UX, and I will attempt to replicate it.',
     imageName: 'publixClonePic'
   },
   {
     name: 'Blog List',
     tools: ['react', 'mongoDB','express', 'cypress', 'jest'],
     github: 'https://github.com/AdamsFontil/fsoPart4/tree/gh-pages',
-    live: '$69.99',
+    live: 'https://wandering-sound-6626.fly.dev/',
     description: 'This is yet another fullStack project so it has a frontend made with react, backend using Rest APIs and express, and it also has database with mongoDB that stores users and their blogs. Users can delete and like blogs. This project uses testing with Jest for unit test, and Cypress for E2E integration testing.',
     imageName: 'blogPic'
   },
   {
     name: 'Personal Website',
     tools: ['react', 'tailwindcss'],
-    github: '',
+    github: 'https://github.com/AdamsFontil/portfolio',
     live: '$69.99',
     description: 'Personal website made mainly with react and tailwind to showcase my abilities and the projects that Ive made',
     imageName: 'portfolioPic'
