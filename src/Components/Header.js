@@ -25,7 +25,7 @@ function Header() {
       {showDropdown && (
         <div className='fixed flex-col top-0 text-6xl left-0 h-screen w-screen bg-orange-400 text-blue-600 flex justify-center items-center z-10'>
           <div className='fixed flex top-0 text-2xl left-0 p-4 justify-between  bg-blue-600 text-orange-400 w-screen'>
-            <div> <a href='#home' className='hover:scale-110' >AF</a> </div>
+            <div> <a href='#home' onClick={handleClickClose} className='hover:scale-110' >AF</a> </div>
             <div className=" flex justify-end" onClick={handleClickClose}><FontAwesomeIcon icon={faX} /></div>
           </div>
           <div className='flex flex-col gap-4'>
