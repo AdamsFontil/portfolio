@@ -118,7 +118,7 @@ const Projects = () => {
                 <p className=''>{project.name}</p>
                 <div className='flex gap-2 justify-end'>
                   <a href={project.github} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faGithub} className='hover:text-white'  /> </a>
-                  <a href={project.live} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='hover:text-white'   /> </a>
+                  <a href={project.live} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='hover:text-white'/> </a>
                 </div>
               </div >
               <div className='flex flex-col gap-3'>
