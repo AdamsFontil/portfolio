@@ -21,7 +21,7 @@ const projectsData = [
     name: 'Publix Clone',
     tools: ['react', 'mongoDB', 'express'],
     github: 'https://github.com/AdamsFontil/groceries',
-    live: 'site.com',
+    live: 'https://6450e30d32a3bd3c6c97453c--funny-bienenstitch-d455ad.netlify.app/',
     description: 'This is a full-stack project, a Publix Clone, that aims to test my skills in CSS and design, backend development using REST, and MongoDB database. The website has user authentication and token authentication, and features like a search bar and client-side form validation. The project will use React, MongoDB, and Express as its main tools. This project also makes use of unit testing with Jest and end-to-end testing with Cypress. The project is inspired by Publix\'s website, which has a pleasing design and excellent UI/UX, and I will attempt to replicate it.',
     imageName: 'publixClonePic'
   },
@@ -38,7 +38,7 @@ const projectsData = [
     tools: ['react', 'tailwindcss'],
     github: 'https://github.com/AdamsFontil/portfolio',
     live: 'https://644fc7ebcd7cb5224f280479--vermillion-cajeta-1205c6.netlify.app/',
-    description: 'Personal website made mainly with react and tailwind to showcase my abilities and the projects that Ive made',
+    description: 'My Personal Website built with React and TailwindCSS to showcase my projects, skills, and background. It features a menu bar for easy navigation, and sections dedicated to projects, information about me, my skills, and my contact information. The project was deployed and is live on netlify.',
     imageName: 'portfolioPic'
   },
   {
@@ -107,14 +107,14 @@ const Projects = () => {
   }
 
   return (
-    <div className='p-4 bg-orange-400 text-blue-600 border-2 border-white rounded-lg'>
-      <h1 className='text-6xl mb-5'>My Projects</h1>
+    <div className='p-4 bg-orange-400 text-blue-600'>
+      <h1 className='text-6xl mb-4'>Projects</h1>
       <Slider className='projects-slider mx-8 mb-6' {...settings}>
         {projectsData.map((project, index) => (
           <div className=' text-white' key={index}>
             <img className='w-49 object-contain' src={images[`./${project.imageName}.png`]} alt={project.name} />
             <div className='pt-4'>
-              <div className='flex items-center justify-between text-blue-600'>
+              <div className='flex items-center justify-between text-4xl text-blue-600'>
                 <p className=''>{project.name}</p>
                 <div className='flex gap-2 justify-end'>
                   <a href={project.github} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faGithub} className='hover:text-white'  /> </a>
