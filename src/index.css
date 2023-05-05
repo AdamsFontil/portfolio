@@ -6,6 +6,10 @@
   max-width: 1220px;
 
 }
+@font-face {
+  font-family: 'Child Babita';
+  src: url('./Assets/fonts/Child-Babita.ttf') format('truetype');
+}
 
 
 /* * {

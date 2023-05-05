@@ -35,7 +35,7 @@ const Skills = () => {
             {skillCategory.skills.map((skill, index) => (
               <div className='hover:-translate-y-2 transform transition-all duration-300' key={index}>
                 <img className='border-2 bg-white h-16 w-16 p-1 border-white rounded-md object-fill' src={images[`./${skill.toLowerCase()}-color.svg`]} alt={skill} />
-                <p className='text-white text-sm hover:text-red-400 justify-center items-end flex '>{skill}</p>
+                <p className='text-white text-sm hover:text-cyan-200 justify-center items-end flex '>{skill}</p>
               </div>
             ))}
           </div>

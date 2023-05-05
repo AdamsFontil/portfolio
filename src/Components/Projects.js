@@ -107,15 +107,15 @@ const Projects = () => {
   }
 
   return (
-    <div className='p-4 bg-orange-400 text-blue-600'>
+    <div className='p-4 '>
       <h1 className='text-6xl mb-4'>Projects</h1>
       <Slider className='projects-slider mx-8 mb-6' {...settings}>
         {projectsData.map((project, index) => (
-          <div className=' text-white' key={index}>
+          <div className='text-white' key={index}>
             <img className='w-49 object-contain' src={images[`./${project.imageName}.png`]} alt={project.name} />
             <div className='pt-4'>
-              <div className='flex items-center justify-between text-4xl text-blue-600'>
-                <p className=''>{project.name}</p>
+              <div className='flex items-center justify-between md:text-4xl text-cyan-200'>
+                <h2 className='text-2xl md:text-7xl'>{project.name}</h2>
                 <div className='flex gap-2 justify-end'>
                   <a href={project.github} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faGithub} className='hover:text-white'  /> </a>
                   <a href={project.live} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='hover:text-white'/> </a>

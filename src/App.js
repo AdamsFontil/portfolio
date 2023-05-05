@@ -11,9 +11,9 @@ function App() {
 
   return (
 
-    <div className='bg-blue-600 text-orange-400 md:text-2xl font-serif'>
+    <div className='bg-cyan-800 text-cyan-200 text-md md:text-4xl font-babita'>
       <Header />
-      <div id="home"><Home /></div>
+      <div id="home" className='pt-8'><Home /></div>
       <div id="about" className='pt-16'><About /></div>
       <div id="skills" className='pt-12' ><Skills /></div>
       <div id="projects" className='pt-12'><Projects /></div>

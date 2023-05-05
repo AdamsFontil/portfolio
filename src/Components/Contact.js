@@ -11,25 +11,25 @@ console.log('resume', resume)
 
 const Contact = () => {
   return (
-    <div className='flex flex-col text-3xl md:text-5xl justify-center gap-9 items-center p-4 text-white bg-orange-400' style={{ height:'100vh' }}>
+    <div className='flex flex-col text-3xl md:text-5xl justify-center gap-9 items-center p-4' style={{ height:'100vh' }}>
 
       <h2 className=' text-6xl md:text-9xl'>Contact me</h2>
       <div className='flex items-center md:p-3'>
         <FontAwesomeIcon icon={faFile} className='p-2' />
-        <a href={resume} target='_blank' className='hover:border-b-2 border-blue-600' rel="noreferrer">resume</a>
+        <a href={resume} target='_blank' className='hover:border-b-2 border-white' rel="noreferrer">resume</a>
       </div>
       <div className='flex items-center md:p-3'>
         <FontAwesomeIcon icon={faEnvelope} className='p-2' />
-        <a href='mailto:adamsfuntil@gmail.com' target='_blank' className='hover:border-b-2 border-blue-600' rel="noreferrer">adamsfuntil@gmail.com</a>
+        <a href='mailto:adamsfuntil@gmail.com' target='_blank' className='hover:border-b-2 border-white' rel="noreferrer">adamsfuntil@gmail.com</a>
 
       </div>
       <div className='flex items-center md:p-3'>
         <FontAwesomeIcon icon={faLinkedin} className='p-2' />
-        <a href='https://www.linkedin.com/in/adams-fontil/' target='_blank' className='hover:border-b-2 border-blue-600' rel="noreferrer">linkedin</a>
+        <a href='https://www.linkedin.com/in/adams-fontil/' target='_blank' className='hover:border-b-2 border-white' rel="noreferrer">linkedin</a>
       </div>
       <div className='flex items-center md:p-3'>
         <FontAwesomeIcon icon={faGithub} className='p-2' />
-        <a href='https://github.com/AdamsFontil' target='_blank' className='hover:border-b-2 border-blue-600' rel="noreferrer">github</a>
+        <a href='https://github.com/AdamsFontil' target='_blank' className='hover:border-b-2 border-white' rel="noreferrer">github</a>
 
       </div>
     </div>

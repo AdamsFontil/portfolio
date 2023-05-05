@@ -13,7 +13,7 @@ function Header() {
   }
 
   return (
-    <div className="flex justify-between items-center bg-blue-600 text-orange-400 p-4 w-screen" style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 10 }}>
+    <div className="flex justify-between items-center bg-cyan-800 text-cyan-200 p-4 w-screen" style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 10 }}>
       <a href='#home' className='hover:scale-110' >AF</a>
       <nav className="hidden gap-4 mx-4 md:flex">
         <div><a href="#about" className='hover:underline'>About</a></div>

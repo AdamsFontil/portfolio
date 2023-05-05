@@ -8,6 +8,7 @@ module.exports = {
       sans: ['Lato','Inter', 'Roboto', 'Montserrat', 'Source Sans Pro', 'Open Sans', 'Raleway', 'Nunito', 'Helvetica', 'Arial', 'sans-serif'],
       serif: ['Merriweather', 'Georgia', 'Playfair Display','Times New Roman', 'serif'],
       mono: ['"font-mono"', 'monospace'],
+      babita: ['Child Babita', 'monospace'],
     },
     screens: {
       'sm': '640px',
