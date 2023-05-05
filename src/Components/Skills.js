@@ -27,7 +27,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <div className='flex flex-col p-4 gap-4'>
-      <h2 className='text-4xl'>Skills</h2>
+      <h2 className='text-4xl md:text-7xl'>Skills</h2>
       {skillsData.map((skillCategory, index) => (
         <div className='flex flex-col' key={index}>
           <h3>{skillCategory.category}</h3>

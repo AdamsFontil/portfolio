@@ -13,7 +13,7 @@ function Header() {
   }
 
   return (
-    <div className="flex justify-between items-center bg-cyan-800 text-cyan-200 p-4 w-screen" style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 10 }}>
+    <div className="flex text-4xl justify-between items-center bg-cyan-800 text-cyan-200 px-4 py-2  w-screen" style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 10 }}>
       <a href='#home' className='hover:scale-110' >AF</a>
       <nav className="hidden gap-4 mx-4 md:flex">
         <div><a href="#about" className='hover:underline'>About</a></div>
@@ -23,8 +23,8 @@ function Header() {
       </nav>
       <div className="md:hidden" onClick={handleClick}><FontAwesomeIcon icon={faBars} /></div>
       {showDropdown && (
-        <div className='fixed flex-col top-0 text-6xl left-0 h-screen w-screen bg-orange-400 text-blue-600 flex justify-center items-center z-10'>
-          <div className='fixed flex top-0 text-2xl left-0 p-4 justify-between  bg-blue-600 text-orange-400 w-screen'>
+        <div className='fixed flex-col top-0 text-6xl left-0 h-screen w-screen bg-cyan-200 text-cyan-800 flex justify-center items-center z-10'>
+          <div className='fixed flex top-0 text-2xl left-0 p-4 justify-between  bg-cyan-800 text-cyan-200 w-screen'>
             <div> <a href='#home' onClick={handleClickClose} className='hover:scale-110' >AF</a> </div>
             <div className=" flex justify-end" onClick={handleClickClose}><FontAwesomeIcon icon={faX} /></div>
           </div>

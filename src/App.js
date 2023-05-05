@@ -11,13 +11,13 @@ function App() {
 
   return (
 
-    <div className='bg-cyan-800 text-cyan-200 text-md md:text-4xl font-babita'>
+    <div className='bg-cyan-800 text-cyan-200 text-md md:text-3xl font-babita'>
       <Header />
-      <div id="home" className='pt-8'><Home /></div>
-      <div id="about" className='pt-16'><About /></div>
-      <div id="skills" className='pt-12' ><Skills /></div>
-      <div id="projects" className='pt-12'><Projects /></div>
-      <div id="contact" className='pt-10'><Contact /></div>
+      <div id="home" className='pt-6'><Home /></div>
+      <div id="about" className='pt-10'><About /></div>
+      <div id="skills" className='pt-10' ><Skills /></div>
+      <div id="projects" className='pt-10'><Projects /></div>
+      <div id="contact" className='pt-4'><Contact /></div>
     </div>
   )
 }

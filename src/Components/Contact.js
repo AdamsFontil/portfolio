@@ -11,9 +11,9 @@ console.log('resume', resume)
 
 const Contact = () => {
   return (
-    <div className='flex flex-col text-3xl md:text-5xl justify-center gap-9 items-center p-4' style={{ height:'100vh' }}>
+    <div className='flex flex-col text-4xl md:text-6xl justify-center gap-9 items-center p-4' style={{ height:'100vh' }}>
 
-      <h2 className=' text-6xl md:text-9xl'>Contact me</h2>
+      <h2 className=' text-7xl md:text-9xl'>Contact me</h2>
       <div className='flex items-center md:p-3'>
         <FontAwesomeIcon icon={faFile} className='p-2' />
         <a href={resume} target='_blank' className='hover:border-b-2 border-white' rel="noreferrer">resume</a>
