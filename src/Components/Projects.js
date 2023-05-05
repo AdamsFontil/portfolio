@@ -37,7 +37,7 @@ const projectsData = [
     name: 'Personal Website',
     tools: ['react', 'tailwindcss'],
     github: 'https://github.com/AdamsFontil/portfolio',
-    live: 'https://644fc7ebcd7cb5224f280479--vermillion-cajeta-1205c6.netlify.app/',
+    live: 'https://adamsfontil.netlify.app/',
     description: 'My Personal Website built with React and TailwindCSS to showcase my projects, skills, and background. It features a menu bar for easy navigation, and sections dedicated to projects, information about me, my skills, and my contact information. The project was deployed and is live on netlify.',
     imageName: 'portfolioPic'
   },
@@ -108,7 +108,7 @@ const Projects = () => {
 
   return (
     <div className='p-4 '>
-      <h1 className='text-4xl md:text-5xl mb-4'>Projects</h1>
+      <h1 className='text-2xl md:text-5xl mb-4'>Projects</h1>
       <Slider className='projects-slider mx-8 mb-6' {...settings}>
         {projectsData.map((project, index) => (
           <div className='text-white' key={index}>

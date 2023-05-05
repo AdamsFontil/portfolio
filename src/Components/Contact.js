@@ -11,7 +11,7 @@ console.log('resume', resume)
 
 const Contact = () => {
   return (
-    <div className='flex flex-col text-4xl md:text-6xl justify-center gap-9 items-center p-4' style={{ height:'100vh' }}>
+    <div className='flex flex-col text-4xl md:text-6xl justify-center gap-9 items-center p-4'>
 
       <h2 className=' text-7xl md:text-9xl'>Contact me</h2>
       <div className='flex items-center md:p-3'>
