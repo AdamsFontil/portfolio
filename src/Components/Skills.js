@@ -12,16 +12,16 @@ console.log('images', images)
 const skillsData = [
   {
     category: 'front-end',
-    skills: ['html5', 'css3', 'javascript', 'react', 'tailwindcss']
+    skills: ['html5', 'css3', 'javascript', 'react', 'tailwindcss', 'redux', 'typescript', 'react native', 'react query', 'next' ]
   },
   {
     category: 'back-end',
-    skills: ['node.js', 'express', 'mongodb', 'rest-apis']
+    skills: ['node.js', 'express', 'mongodb', 'rest-apis', 'graphql','ci cd', 'docker', 'github actions']
   },
   {
     category: 'misc.',
-    skills: ['npm','git', 'github', 'cypress', 'jest']
-  }
+    skills: ['npm','git', 'github', 'cypress', 'jest', 'fly.io' ]
+  },
 ]
 
 const Skills = () => {
