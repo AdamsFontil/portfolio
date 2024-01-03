@@ -18,11 +18,21 @@ console.log('images', images)
 
 const projectsData = [
   {
-    name: 'eStore for a Friend',
+    name: 'Tweeter: A Twitter Clone',
+    tools: ['nextJs', 'tailwindcss', 'supabase', 'shadcnui', 'github actions', 'react-query'],
+    github: 'https://github.com/AdamsFontil/social',
+    live: 'https://social-indol.vercel.app',
+    // eslint-disable-next-line quotes
+    description: "This project is my proudest work, and shows all of the skills I've acquired during my school break. Made without tutorials, it showcases my frontend and backend abilities, with Shadcnui creating beautiful interfaces, Tailwind CSS styling smoothly, and React Query making cache management, and api calls much easier to work with. Supabase, is the backbone of this site as it handles data and storage. The live project excels in a responsive design, smooth login/logout, and comprehensive user profiles, notifications, and bookmarks. While lacking some social media features like liking posts, replying and following users, uploading images/videos, the site still captures the essence of the actual thing. Future improvements might fill these gaps, but with my return to school, I'm not sure if I'll be able to find the time to realize those plans. Please checkout this clone, make a post and tell me what you think.",
+    imageName: 'tweeter'
+  },
+  {
+    name: 'Shopping Store for a Friend',
     tools: ['nextJs', 'tailwindcss', 'pocketbase', 'daisyUI', 'fontAwesome'],
     github: 'https://github.com/AdamsFontil/nextCormerce',
     live: 'https://store-ashen-psi.vercel.app/',
-    description: 'This project was made because my friend wanted a site to start an online bussiness. The products on the page aren\'t actually for sale because the store didn\'t pan out. But if it did this is what the site would\'ve looked like.',
+    // eslint-disable-next-line quotes
+    description: "This project was created to support my friend's venture into online business. While the showcased products on the site aren't available for sale due to the store not coming to fruition, the site offers a glimpse into what it could have been. The captivating interface, designed with DaisyUI, enhances the user experience. React-query handles state management, route calling, and cache management, contributing to the site's seamless functionality. The backend is powered by Pocketbase, managing user profiles, the catalog of items, and the site's images. Although the shopping aspect is a demo and doesn't feature actual products, the payment processing, integrated with Stripe, is fully functional within the project.",
     imageName: 'eStore'
   },
   {
@@ -38,7 +48,7 @@ const projectsData = [
     tools: ['react', 'mongoDB', 'express'],
     github: 'https://github.com/AdamsFontil/groceries',
     live: 'https://publixclone.netlify.app/',
-    description: 'This is a full-stack project, a Publix Clone, that aims to test my skills in CSS and design, backend development using REST, and MongoDB database. The website has user authentication and token authentication, and features like a search bar and client-side form validation. The project will use React, MongoDB, and Express as its main tools. This project also makes use of unit testing with Jest and end-to-end testing with Cypress. The project is inspired by Publix\'s website, which has a pleasing design and excellent UI/UX, and I will attempt to replicate it.',
+    description: 'This is not a full-stack project. But it does show my frontend skills with CSS and design. There isn\'t much of a backend here and there\'s no database. The website has user authentication and token authentication, and features like a search bar and client-side form validation and is fully responsive. The project is inspired by Publix\'s website, which has a pleasing design and excellent UI/UX, and I did my best attempt to replicate the UI.',
     imageName: 'publixClonePic'
   },
   // {
@@ -114,7 +124,7 @@ const Projects = () => {
           <div className='text-white' key={index}>
             <img className='w-49 object-contain' src={images[`./${project.imageName}.png`]} alt={project.name} />
             <div className='pt-4'>
-              <div className='flex items-center justify-between md:text-lg text-cyan-200'>
+              <div className='flex items-center justify-between text-2xl md:text-4xl text-cyan-200'>
                 <h2 className='text-2xl md:text-3xl'>{project.name}</h2>
                 <div className='flex gap-2 justify-end'>
                   <a href={project.github} target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faGithub} className='hover:text-white'  /> </a>
