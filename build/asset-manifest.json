@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4ca7c1c.css",
-    "main.js": "/static/js/main.82913396.js",
+    "main.css": "/static/css/main.b9b20073.css",
+    "main.js": "/static/js/main.3e3d20db.js",
     "static/media/eStore.png": "/static/media/eStore.c9f0922dffbeb6ff38f4.png",
     "static/media/publixClonePic.png": "/static/media/publixClonePic.e3893d19416e5a7c4ef4.png",
     "static/media/pexels-ozan-çulha-16337978 (1).jpg": "/static/media/pexels-ozan-çulha-16337978 (1).c7020f056e3f9160adde.jpg",
@@ -41,7 +41,7 @@
     "static/media/redux-color.svg": "/static/media/redux-color.0a4a6ca2be44339bedb6.svg",
     "static/media/docker-color.svg": "/static/media/docker-color.a2eecd96da9f90e20b8d.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/next-color.svg": "/static/media/next-color.638b6634b382c33dc51d.svg",
+    "static/media/next.js-color.svg": "/static/media/next.js-color.638b6634b382c33dc51d.svg",
     "static/media/javascript-color.svg": "/static/media/javascript-color.75fa9cdf8b00c1ddc571.svg",
     "static/media/cypress-color.svg": "/static/media/cypress-color.7b7974c8e393802e8e44.svg",
     "static/media/github-color.svg": "/static/media/github-color.7b8957dbab85107e12b6.svg",
@@ -52,14 +52,14 @@
     "static/media/tailwindcss-color.svg": "/static/media/tailwindcss-color.d09fc953e7affe05a4e0.svg",
     "static/media/typescript-color.svg": "/static/media/typescript-color.f20748caf2dac55710dd.svg",
     "static/media/mongodb-color.svg": "/static/media/mongodb-color.4a790e2582289412e0a4.svg",
-    "static/media/css3-color.svg": "/static/media/css3-color.98daf49e4be2b88d6c17.svg",
-    "static/media/html5-color.svg": "/static/media/html5-color.74577817dde8fee285d3.svg",
+    "static/media/css-color.svg": "/static/media/css-color.98daf49e4be2b88d6c17.svg",
+    "static/media/html-color.svg": "/static/media/html-color.74577817dde8fee285d3.svg",
     "static/media/npm-color.svg": "/static/media/npm-color.2b9f00532406a32dcac6.svg",
-    "main.b4ca7c1c.css.map": "/static/css/main.b4ca7c1c.css.map",
-    "main.82913396.js.map": "/static/js/main.82913396.js.map"
+    "main.b9b20073.css.map": "/static/css/main.b9b20073.css.map",
+    "main.3e3d20db.js.map": "/static/js/main.3e3d20db.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4ca7c1c.css",
-    "static/js/main.82913396.js"
+    "static/css/main.b9b20073.css",
+    "static/js/main.3e3d20db.js"
   ]
 }

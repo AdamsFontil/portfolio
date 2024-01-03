@@ -12,7 +12,7 @@ console.log('images', images)
 const skillsData = [
   {
     category: 'front-end',
-    skills: ['html5', 'css3', 'javascript', 'react', 'tailwindcss', 'redux', 'typescript', 'react native', 'react query', 'next' ]
+    skills: ['html', 'css', 'javascript', 'react', 'tailwindcss', 'redux', 'typescript', 'react native', 'react query', 'next.js' ]
   },
   {
     category: 'back-end',
@@ -26,16 +26,16 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <div className='flex flex-col p-4 gap-4'>
+    <div className='flex flex-col md:p-4 p-2 gap-2 md:gap-4'>
       <h2 className='text-4xl md:text-7xl'>Skills</h2>
       {skillsData.map((skillCategory, index) => (
         <div className='flex flex-col' key={index}>
-          <h3>{skillCategory.category}</h3>
-          <div className='flex gap-4'>
+          <h3 className=''>{skillCategory.category} testing</h3>
+          <div className='flex  w-full md:gap-4'>
             {skillCategory.skills.map((skill, index) => (
-              <div className='hover:-translate-y-2 transform transition-all duration-300' key={index}>
-                <img className='border-2 bg-white h-16 w-16 p-1 border-white rounded-md object-fill' src={images[`./${skill.toLowerCase()}-color.svg`]} alt={skill} />
-                <p className='text-white text-sm hover:text-cyan-200 justify-center items-end flex '>{skill}</p>
+              <div className='flex flex-col hover:-translate-y-2 pl-1 w-12 md:w-24 transform transition-all duration-300  items-center' key={index}>
+                <img className='border-2 bg-white h-8 w-8 md:h-16 md:w-16 border-white rounded-md object-fill items-center' src={images[`./${skill.toLowerCase()}-color.svg`]} alt={skill} />
+                <p className='text-white text-xs break-words text-center md:text-lg hover:text-cyan-200 justify-center items-end flex '>{skill}</p>
               </div>
             ))}
           </div>
