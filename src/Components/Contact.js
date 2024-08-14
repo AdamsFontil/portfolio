@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-import image4 from '../Assets/pexels-ozan-çulha-16337978 (1).jpg'
+// import image4 from '../Assets/pexels-ozan-çulha-16337978 (1).jpg'
 import resume from '../Assets/resume/Adams_Fontil_fullStack.pdf'
 
-console.log('image', image4)
+// console.log('image', image4)
 console.log('resume', resume)
 
 const Contact = () => {
