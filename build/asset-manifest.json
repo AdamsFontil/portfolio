@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.b9b20073.css",
-    "main.js": "/static/js/main.3e3d20db.js",
+    "main.js": "/static/js/main.0c4c45a9.js",
     "static/media/eStore.png": "/static/media/eStore.c9f0922dffbeb6ff38f4.png",
     "static/media/publixClonePic.png": "/static/media/publixClonePic.e3893d19416e5a7c4ef4.png",
-    "static/media/pexels-ozan-çulha-16337978 (1).jpg": "/static/media/pexels-ozan-çulha-16337978 (1).c7020f056e3f9160adde.jpg",
     "static/media/pokedex.png": "/static/media/pokedex.8f43e1f017c8b4c76dcb.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/phonebookPic.png": "/static/media/phonebookPic.72bc8a6113a868fa9329.png",
@@ -13,13 +12,13 @@
     "static/media/library3Pic.png": "/static/media/library3Pic.7f0f277a4e0bd7e3f252.png",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/todolistScreenshot.png": "/static/media/todolistScreenshot.6c00ddb492471b68741f.png",
+    "static/media/HandShake1.jpg": "/static/media/HandShake1.394776c723e7c044dcae.jpg",
     "static/media/blogPic.png": "/static/media/blogPic.2a969c1974a7f84057d9.png",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/libraryPic.png": "/static/media/libraryPic.a632ef6f4ab68f0cea02.png",
     "static/media/library2Pic.png": "/static/media/library2Pic.9509658f29756b4ef725.png",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
     "static/media/calculatorScreenshot.png": "/static/media/calculatorScreenshot.adcd57ed68bb095a927e.png",
-    "static/media/mirrorPic.jpg": "/static/media/mirrorPic.67841575bb94edd39224.jpg",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
     "static/media/Child-Babita.ttf": "/static/media/Child-Babita.46111c095313654ec460.ttf",
     "static/media/Adams_Fontil_fullStack.pdf": "/static/media/Adams_Fontil_fullStack.4533595a796773b7dc37.pdf",
@@ -56,10 +55,10 @@
     "static/media/html-color.svg": "/static/media/html-color.74577817dde8fee285d3.svg",
     "static/media/npm-color.svg": "/static/media/npm-color.2b9f00532406a32dcac6.svg",
     "main.b9b20073.css.map": "/static/css/main.b9b20073.css.map",
-    "main.3e3d20db.js.map": "/static/js/main.3e3d20db.js.map"
+    "main.0c4c45a9.js.map": "/static/js/main.0c4c45a9.js.map"
   },
   "entrypoints": [
     "static/css/main.b9b20073.css",
-    "static/js/main.3e3d20db.js"
+    "static/js/main.0c4c45a9.js"
   ]
 }
