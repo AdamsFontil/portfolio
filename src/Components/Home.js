@@ -1,6 +1,6 @@
 import React from 'react'
 
-import image4 from '../Assets/resume/mirrorPic.jpg'
+import image4 from '../Assets/resume/HandShake1.jpg'
 
 const Home = () => {
   return (
